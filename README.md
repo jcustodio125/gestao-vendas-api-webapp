@@ -72,7 +72,7 @@ Acesse: `http://localhost:3000`
 
 ## 🌐 Deploy
 
-> A aplicação está hospedada em: [🔗 URL de deploy]
+> A aplicação está hospedada em: [[🔗 URL de deploy](https://gestao-vendas-api-webapp.onrender.com)]
 
 ---
 

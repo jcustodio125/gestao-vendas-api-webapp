@@ -165,9 +165,9 @@ function mudarPagina(pagina) {
   listarPedidos(pagina);
 }
 
-// ✅ Filtros - agora definidos corretamente no escopo global
+
 function aplicarFiltros() {
-  listarPedidos(1); // Reinicia da primeira página ao aplicar filtros
+  listarPedidos(1);
 }
 
 function limparFiltros() {

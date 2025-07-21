@@ -1,6 +1,3 @@
-// public/script-kanban.js
-// Kanban com drag and drop real — funciona de verdade!
-
 const columnMap = {
   'col-andamento': 'Em andamento',
   'col-finalizado': 'Finalizado',
@@ -15,10 +12,9 @@ function allowDrop(e) {
 // Define o ID do card que está sendo arrastado
 function dragStart(e) {
   e.dataTransfer.setData('text/plain', e.target.dataset.id);
-  e.target.classList.add('dragging'); // Estilo opcional
+  e.target.classList.add('dragging');
 }
 
-// Remove classe "dragging" ao final
 function dragEnd(e) {
   e.target.classList.remove('dragging');
 }
