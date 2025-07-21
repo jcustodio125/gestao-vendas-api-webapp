@@ -1,0 +1,100 @@
+/* ========= GLOBAL ========= */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* ========= NAVBAR ========= */
+.navbar {
+  background-color: #0d3b66;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #cce7ff !important;
+}
+
+.active {
+  color: #cce7ff !important;
+}
+
+/* ========= HEADINGS ========= */
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+/* ========= CARDS ========= */
+.card {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+}
+
+.card .card-title {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card .fs-4 {
+  font-size: 1.5rem;
+}
+
+/* ========= DASHBOARD - CHARTS ========= */
+.chart-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  max-height: 350px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+}
+
+.chart-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain;
+}
+
+/* ========= TABELAS (opcional para páginas de listagem) ========= */
+.table th {
+  background-color: #0d3b66;
+  color: #fff;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+/* ========= BOTÕES ========= */
+.btn-primary {
+  background-color: #0d3b66;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #105194;
+}
+
+/* ========= FORMULÁRIOS ========= */
+.form-control:focus {
+  border-color: #0d3b66;
+  box-shadow: 0 0 0 0.2rem rgba(13, 59, 102, 0.25);
+}
+
+/* ========= RESPONSIVO EXTRA ========= */
+@media (max-width: 768px) {
+  .chart-container {
+    aspect-ratio: 1 / 1;
+    max-height: 300px;
+  }
+}
